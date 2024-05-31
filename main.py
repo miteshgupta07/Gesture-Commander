@@ -3,7 +3,6 @@ import mediapipe as mp
 from cvzone.HandTrackingModule import HandDetector
 
 cap=cv2.VideoCapture(0)
-
 detector=HandDetector(detectionCon=0.8,maxHands=2)
 
 
@@ -25,17 +24,9 @@ while True:
         bbox1=hand['bbox']
         center1=hand['center']
         handtype=hand['type']
-        count_list=detector.fingersUp(hand)
-        count=count_list[1:].count(1) + (count_list[0]^1)
-        dist,info=detector.findDistance(lmlist[8],lmlist[4])
-        if handtype=='Right':
-            
-            pass
-        else:
-            pass
-        # dist,info,img=detector.findDistance(lmlist[8],lmlist[4],img)
-        
-        # print(count)
+
+        dist,info,img=detector.findDistance(lmlist[8],lmlist[12],img)
+        print(type(info))
 
     cv2.imshow('Image',img)
 
