@@ -69,7 +69,19 @@ while True:
 # -----------------------------------------------------------------------------------------
     
     # Speed
-        
+        count=detector.fingersUp(hand)
+        finger_count=sum(count[1:])
+        if finger_count>0:
+            speed=0.5*finger_count
+            print("{}x".format(speed))
+
+# -----------------------------------------------------------------------------------------
+
+
+
+
+
+
 
     cv2.imshow('Image',img)
 
