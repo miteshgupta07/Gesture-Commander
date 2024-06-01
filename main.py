@@ -11,6 +11,16 @@ detector=HandDetector(maxHands=1,modelComplexity=1, detectionCon=0.8,minTrackCon
 vb_new_dist=0
 fb_new_dist=0
 pause_resume_flag=1
+
+def Volume_Control():
+    pass
+def Forward_Backward_Control():
+    pass
+def Pause_Resume_Control():
+    pass
+def Speed_Control():
+    pass
+
 while True:
     
     success,img=cap.read()
@@ -29,7 +39,7 @@ while True:
         handtype=hand['type']
 
 # # -----------------------------------------------------------------------------------------
-#     # Volume and Brightness
+#     # Volume
         # _,vb_info,_=detector.findDistance(lmlist[8][0:2],lmlist[12][0:2])
         # vb_old_dist=vb_new_dist
         # vb_new_dist=vb_info[5] # to get mid point's y axis value
