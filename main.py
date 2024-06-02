@@ -2,7 +2,7 @@
 import cv2 
 from pynput.keyboard import Controller
 from cvzone.HandTrackingModule import HandDetector
-from VLC_Control import *
+from Key_Control import *
 
 # Initialize the webcam
 cap = cv2.VideoCapture(0)
