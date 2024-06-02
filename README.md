@@ -58,4 +58,6 @@ GestureVLC uses computer vision techniques to interpret hand gestures and contro
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contributing
+
 Contributions are welcome! Please create a pull request or open an issue to discuss any changes or improvements.
