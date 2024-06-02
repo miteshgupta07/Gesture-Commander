@@ -39,7 +39,7 @@ def Backward():
 def Pause_Resume():
     controller.press(Key.space)
     controller.release(Key.space)
-    time.sleep(0.5)
+    time.sleep(0.05)
 
 while True:
     
