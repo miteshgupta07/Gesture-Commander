@@ -1,3 +1,0 @@
-shortcut_keys={
-    
-}

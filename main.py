@@ -1,45 +1,12 @@
 import cv2 
 from pynput.keyboard import Controller
 from cvzone.HandTrackingModule import HandDetector
-from pynput.keyboard import Key,Controller
-import time
+from Media_Control import *
 
-sleep_time=0.025
 cap=cv2.VideoCapture(0)
-controller=Controller()
 detector=HandDetector(maxHands=2,modelComplexity=1, detectionCon=0.8,minTrackCon=0.5)
 vb_new_dist=0
 fb_new_dist=0
-pause_resume_flag=1
-
-def Volume_Up():
-    controller.press(Key.up)
-    controller.release(Key.up)
-    time.sleep(sleep_time)
-
-def Volume_Down():
-    controller.press(Key.down)
-    controller.release(Key.down)
-    time.sleep(sleep_time)
-
-def Forward():
-    controller.press(Key.shift)
-    controller.press(Key.right)
-    controller.release(Key.shift)
-    controller.release(Key.right)
-    time.sleep(sleep_time)
-
-def Backward():
-    controller.press(Key.shift)
-    controller.press(Key.left)
-    controller.release(Key.shift)
-    controller.release(Key.left)
-    time.sleep(sleep_time)
-
-def Pause_Resume():
-    controller.press(Key.space)
-    controller.release(Key.space)
-    time.sleep(0.05)
 
 while True:
     
