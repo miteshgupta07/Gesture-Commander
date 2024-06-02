@@ -1,7 +1,7 @@
 import cv2 
 from pynput.keyboard import Controller
 from cvzone.HandTrackingModule import HandDetector
-from Media_Control import *
+from VLC_Control import *
 
 cap=cv2.VideoCapture(0)
 detector=HandDetector(maxHands=2,modelComplexity=1, detectionCon=0.8,minTrackCon=0.5)
