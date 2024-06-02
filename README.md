@@ -1,13 +1,15 @@
-<h1 align="center"><img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b"> VLC Gesture Commander <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b">
+<h1 align="center">
+  <img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188">  <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b"> Gesture Commander <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b">
+<img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188">  
 </h1>
 
-VLC Gesture Commander uses computer vision techniques to interpret hand gestures and control VLC Media Player. Utilizing OpenCV for image processing and cvzone for hand detection, it provides an intuitive, hands-free way to interact with your media player.
+Gesture Commander uses computer vision techniques to interpret hand gestures and control Media Player like VLC and Youtube. Utilizing OpenCV for image processing and cvzone for hand detection, it provides an intuitive, hands-free way to interact with your media player.
 
 
 ## Features
 
 - **Real-time Gesture Detection**: The system detects hand gestures in real-time using your webcam.
-- **Seamless VLC Integration**: Sends corresponding key presses to VLC Media Player based on detected gestures.
+- **Seamless Media Player Integration**: Sends corresponding key presses to Media Player like VLC and Youtube based on detected gestures.
 - **User-Friendly**: Easy-to-use interface with simple hand gestures for common media controls.
 
   
@@ -15,7 +17,7 @@ VLC Gesture Commander uses computer vision techniques to interpret hand gestures
 
 - `requirements.txt` - Lists the dependencies required to run the project.
 - `main.py` - Contains the code to detect hand gestures.
-- `VLC_Control.py` - Includes functions to send key presses to VLC Media Player.
+- `Key_Control.py` - Includes functions to send key presses to Media Player.
 
 ## Gestures
 
@@ -30,8 +32,8 @@ VLC Gesture Commander uses computer vision techniques to interpret hand gestures
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/VLC Gesture Commander.git
-    cd VLC Gesture Commander
+    git clone https://github.com/yourusername/Gesture Commander.git
+    cd Gesture Commander
     ```
 
 2. Install the required dependencies:
@@ -48,14 +50,14 @@ VLC Gesture Commander uses computer vision techniques to interpret hand gestures
     python main.py
     ```
 
-3. Use the specified hand gestures to control VLC Media Player.
+3. Use the specified hand gestures to control VLC Media Player and Youtube.
 
 
 ## Acknowledgements
 
-- **OpenCV**: Powering VLC Gesture Commander with robust image processing capabilities.
-- **cvzone**: Providing efficient hand detection and tracking functionality for VLC Gesture Commander.
-- **VLC Media Player**: Serving as the media platform for VLC Gesture Commander's seamless integration.
+- **OpenCV**: Powering Gesture Commander with robust image processing capabilities.
+- **cvzone**: Providing efficient hand detection and tracking functionality for Gesture Commander.
+- **Media Player**: Serving as the media platform for Gesture Commander's seamless integration.
 
 
 ## License
