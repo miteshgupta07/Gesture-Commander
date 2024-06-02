@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188">  <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b"> Gesture Commander <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b">
-<img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188">  
+  <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b"> <img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188"> Gesture Commander <img width="40" alt="youtube" src="https://github.com/miteshgupta07/VLC-Gesture-Commander/assets/111682782/39ae47da-b803-4a0d-b455-a38014204188"> <img width="30" alt="vlc" src="https://github.com/miteshgupta07/Gesture-Control-Media-Player-Using-Computer-Vision/assets/111682782/6cc78c35-1cb8-48df-b988-ddf95942c88b">
+ 
 </h1>
 
 Gesture Commander uses computer vision techniques to interpret hand gestures and control Media Player like VLC and Youtube. Utilizing OpenCV for image processing and cvzone for hand detection, it provides an intuitive, hands-free way to interact with your media player.
