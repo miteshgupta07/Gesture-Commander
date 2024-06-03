@@ -77,7 +77,7 @@ while True:
                     Pause_Resume()
 
     # Display the image
-    cv2.imshow('Image', img)
+    cv2.imshow('Gesture Detection', img)
 
     # Break the loop if the escape key is pressed
     if cv2.waitKey(1) & 0xFF == 27:
